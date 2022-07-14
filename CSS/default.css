@@ -1,0 +1,95 @@
+.greenCR{
+    position: absolute;
+    top: 2px;
+    left: 50px;
+    font-size: 54px;
+    color: #098115;
+}
+body{
+    background-image: url('../images/background.png');
+    background-size: cover;
+}
+#outer{
+    position: relative;
+    width: 920px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: #FFF;
+    border: initial;
+    overflow: overlay;  
+}
+.header{
+    height: 250px;
+    width: 880px;
+    padding: 15px 15px 0px 15px;
+}
+#primarycontent{
+    float : left;
+    width: 250px;
+    padding: 0px 0px 20px 15px;
+}
+#primarycontent p{
+    text-align: justify;
+}
+.secondarytitle{
+    color: #819D46;
+}
+.title{
+    font-size: 20px;
+}
+#date{
+color: #819D46;
+font-size: 18px;
+}
+img.picA{
+    position: relative;
+    top: -2px;
+    width: 36px;
+    height: 36px;
+    padding: 5px;
+}
+img.floatleft
+{
+    float: left;/*Investigar*/
+    margin: 0px 14px 3px 0px;
+}
+#secondarycontent{
+    width: 600px;
+    float: right;
+    padding: 0px 30px 0px 25px;
+}
+#secondarycontent p{
+    text-align: justify;
+}
+img.picB{
+    position: relative;
+    top: -2px;
+    width: 210px;
+    height: 262px;
+    padding: 5px;
+}
+img.floatright
+{
+    float: left;
+    margin: 0px 14px 3px 0px;
+}
+footer{
+    width: 880px;
+    height:35px;
+    text-align: center;
+    background-color: #488000;
+    color: #fff;
+    margin-right: 24px;
+    float: right;
+    justify-content: center;
+    padding-top: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: inherit;
+}
+  
+#principalcontent {
+    background: #fff;
+    width: 920px;
+}

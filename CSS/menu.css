@@ -1,0 +1,44 @@
+.navbar {
+  display:flexbox;
+  height: 35px;
+  width: 880px;
+  background-color: #488000;
+  color: #fff;
+  padding: 0px 0px 0px 1px;
+  margin-right: 24px;
+  float: right;
+}
+.menu {
+  margin: 6px;
+  padding: 0px;
+}
+
+.menu li {
+  float: left;
+  list-style-type: none
+}
+
+.menu li a {
+  padding: 5px 10px;
+  line-height: 20px;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  text-decoration: none
+}
+
+.menu li a:hover {
+  color: #000
+}
+
+.menu li:after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  height: 20px;
+  width: 1px;
+  background: #fff
+}
+
+.menu li:last-child::after {
+  display: none
+}

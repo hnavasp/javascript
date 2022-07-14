@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+</head>
+
+<body>
+    <div id="outer">
+        <header class="header">
+            <img src="images/banner.jpg">
+            <h1 class="greenCR" id="demo"></h1>
+            <script>
+                const time = new Date().getHours();
+                let greeting;
+                try{
+                    if (time < 10) {
+                  greeting = "Good morning Green CR";
+                } else if (time < 20) {
+                  greeting = "Good day Green CR";
+                } else {
+                  greeting = "Good evening Green CR";
+                }
+                document.getElementById("demo").innerHTML = greeting;
+                }catch(err){
+                    alert("Error en JSON: " + e.message);
+                }
+                
+                </script>
+        </header>
+        <nav class="navbar">
+            <div id="container">
+                <ul class="menu">
+                    <li><a>Home</a></li>
+                    <li><a>Qué Hacer</a></li>
+                    <li><a>Destinos</a></li>
+                    <li><a>Flora y Fauna</a></li>
+                    <li><a>Contáctenos</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main id="principalcontent">
+            <aside id="primarycontent">
+                <article class="post">
+                    <div class="title">
+                        <h3>Noticias</h3>
+                        <h3 id="date">06-10-2017</h3>
+                    </div>
+                    <div class="content">
+                        <img class="picA floatleft" src="images/info.png">
+                        <p>Vista Los Sueños Rainforest Tours le ofrece impresionantes Cataratas, sorprendentes vistas
+                            del Golfo de Nicoya y el Océano pacífico mientras que dentro de la propiedad podrá tener la
+                            oportunidad de admirar vida silvestre como Guacamayas, Tucanes y Monos Cariblancos.</p>
+                    </div>
+                </article>
+                <article class="post">
+                    <div class="title">
+                        <h3>Relevante</h3>
+                    </div>
+                    <div class="content">
+                        <img class="picA floatleft" src="images/info.png">
+                        <p>Costa Rica es un jardín de juegos para los amantes de la naturaleza, y sin importar su estado
+                            de ánimo, usted encontrara un verdadero paraíso para hacerlo.</p>
+                        <img class="picA floatleft" src="images/info.png">
+                        <p>La conservación del medio ambiente y el crecimiento económico va de la mano, es por eso que
+                            Costa Rica apuesta a un Ecoturismo sostenible.</p>
+                    </div>
+                </article>
+            </aside>
+            <div id="secondarycontent">
+                <article class="secondarypost">
+                    <div class="maintitle">
+                        <h1>Welcome to Green Costa Rica</h1>
+                    </div>
+                    <div class="content">
+                        <p>Situada en medio del Mar Caribe y el Océano Pacífico, el paisaje de Costa Rica es pintado con
+                            majestuosos volcanes y montañas,
+                            exuberantes bosques tropicales e inmensas llanuras costeras. Pero unas vacaciones en Costa
+                            Rica
+                            ofrecen más que unos paisajes adorables, este país está inmerso en una historia
+                            sumamente rica que data de los años 1500 y cuenta con un estilo de vida
+                            centrado en la comunidad que es poco común en gran parte del mundo. Aquí,
+                            usted puede despertarse con el sonido de monos aulladores o tucanes
+                            conversando entre ellos, después de aprender sobre las misteriosas esferas de
+                            piedra que pesan hasta 15 toneladas. Amantes de la naturaleza, ecologistas,
+                            surfistas, amantes de la historia - no importa cuál sea su personalidad o
+                            pasatiempo, las vacaciones en Costa Rica ofrecen algo increíble para explorar o
+                            descubrir.</p>
+                    </div>
+                </article>
+                <article class="post">
+                    <div class="secondarytitle">
+                        <h2>Visite Costa Rica</h2>
+                    </div>
+                    <div class="content">
+                        <img class="picB floatright" src="images/fancybox_small.jpg">
+                        <p>Aunque el área de Costa Rica tiene poco más de 51,100 kms cuadrados es
+                            hogar del 5% de la biodiversidad mundial, y sus habitantes están sumamente
+                            comprometidos en la protección de este magnífico paraíso.</p>
+                        <p>Los amantes de la naturaleza en Costa Rica pueden explorar sus 26 parques
+                            nacionales y tierras protegidas las cuales representan aproximadamente el 25%
+                            del total de tierra del país. Elija un lugar junto al papagayo escarlata en el Parque
+                            Nacional Corcovado, diviértase con los monos aulladores en el Parque Nacional
+                            Manuel Antonio o piérdase en la belleza de las salvajes magnolias en la Reserva
+                            del Bosque Nuboso de Monteverde.</p>
+                    </div>
+                </article>
+            </div>
+        </main>
+        <footer>
+            <div id="footer">
+                <a href="http://www.ict.go.cr/es/">ICT | </a>
+                <a href="">Contáctenos | </a>
+                <a href="">Galería</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
